@@ -22,7 +22,7 @@ class SaleItemResource extends Resource
 {
     protected static ?string $model = SaleItem::class;
 
-    protected static string|BackedEnum|null $navigationIcon = Heroicon::OutlinedRectangleStack;
+    protected static string|BackedEnum|null $navigationIcon = Heroicon::CurrencyEuro;
 
     public static function form(Schema $schema): Schema
     {

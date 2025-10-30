@@ -29,10 +29,10 @@ class AdminPanelProvider extends PanelProvider
             ->default()
             ->id('/')
             ->path('/')
-            ->brandLogo(asset('Images/daryalearn-ms.png'))
-            ->favicon(asset('Images/daryalearn-icon.png'))
+            ->brandLogo(asset('Images/techzone-logo.png'))
+            ->favicon(asset('Images/techzone-logo.png'))
             ->maxContentWidth(Width::ScreenTwoExtraLarge)
-            ->brandLogoHeight('2.5rem')
+            ->brandLogoHeight('4rem')
             ->login()
             ->colors([
                 'danger' => Color::Rose,

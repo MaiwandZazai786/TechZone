@@ -8,4 +8,15 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 class SaleItem extends Model
 {
     use SoftDeletes;
+    protected $fillable = ['sale_id', 'product_id', 'quantity', 'price', 'subtotal'];
+
+    public function sale()
+    {
+        return $this->belongsTo(Sale::class);
+    }
+
+    public function product()
+    {
+        return $this->belongsTo(Product::class);
+    }
 }

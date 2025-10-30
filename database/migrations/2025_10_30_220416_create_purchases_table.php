@@ -13,6 +13,9 @@ return new class extends Migration
     {
         Schema::create('purchases', function (Blueprint $table) {
             $table->id();
+            $table->date('purchase_date');
+            $table->decimal('total_amount', 10, 2);
+            $table->softDeletes();
             $table->timestamps();
         });
     }

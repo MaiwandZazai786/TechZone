@@ -30,7 +30,7 @@ class AdminPanelProvider extends PanelProvider
             ->id('/')
             ->path('/')
             ->brandLogo(asset('Images/techzone-logo.png'))
-            ->favicon(asset('Images/techzone-logo.png'))
+            ->favicon(asset('Images/zazaisoftware.png'))
             ->maxContentWidth(Width::ScreenTwoExtraLarge)
             ->brandLogoHeight('4rem')
             ->login()
